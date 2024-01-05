@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ---------------- MEDIA QUERIES (SMALL DEVICES) ---------------- */
+
+@media screen and (max-width: 600px) {
+  .app {
+    width: 600px;
+    height: 700px;
+    vertical-align: middle;
+  }
+  #root {
+    width: 600px;
+    height: 700px;
+    vertical-align: middle;
+  }
+}
