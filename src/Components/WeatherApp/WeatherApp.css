@@ -81,3 +81,12 @@
 .icon{
     margin-top: 10px;
 }
+
+/* ---------------- MEDIA QUERIES (SMALL DEVICES) ---------------- */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        vertical-align: middle;
+    }
+}
